@@ -1,5 +1,5 @@
-import NextImage from 'next/image'
-import NextLink from 'next/link'
+import NextImage from "next/image";
+import NextLink from "next/link";
 import {
   Box,
   List,
@@ -9,43 +9,43 @@ import {
   Center,
   LinkBox,
   LinkOverlay,
-} from '@chakra-ui/layout'
+} from "@chakra-ui/layout";
 import {
   MdHome,
   MdSearch,
   MdLibraryMusic,
   MdPlaylistAdd,
   MdFavorite,
-} from 'react-icons/md'
+} from "react-icons/md";
 
 const navMenu = [
   {
-    name: 'Home',
+    name: "Home",
     icon: MdHome,
-    route: '/',
+    route: "/",
   },
   {
-    name: 'Search',
+    name: "Search",
     icon: MdSearch,
-    route: '/search',
+    route: "/search",
   },
   {
-    name: 'Your Library',
+    name: "Your Library",
     icon: MdLibraryMusic,
-    route: '/library',
+    route: "/library",
   },
 ]
 
 const musicMenu = [
   {
-    name: 'Create Playlist',
+    name: "Create Playlist",
     icon: MdPlaylistAdd,
-    route: '/',
+    route: "/",
   },
   {
-    name: 'Favorites',
+    name: "Favorites",
     icon: MdFavorite,
-    route: '/favorites',
+    route: "/favorites",
   },
 ]
 
@@ -123,4 +123,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
