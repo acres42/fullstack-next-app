@@ -37,7 +37,7 @@ const MyApp = ({ Component, pageProps }) => {
         <Component {...pageProps} />
       </PlayerLayout>
     </ChakraProvider>
-  )
+  );
 };
 
 export default MyApp;

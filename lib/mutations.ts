@@ -5,4 +5,4 @@ export const auth = (
   body: { email: string, password: string }
 ) => {
   return fetcher(`/${mode}`, body);
-}
+};
